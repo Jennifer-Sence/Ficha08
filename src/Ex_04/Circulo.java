@@ -11,12 +11,12 @@ public class Circulo {
     }
 
     public double area(){
-        double area = 3.14 * raio * raio;
+        double area = 3.14 * this.raio * this.raio;
         return area;
     }
 
     public double circunferencia(){
-        double circunf = 2 * 3.14 * raio;
+        double circunf = 2 * 3.14 * this.raio;
         return circunf;
     }
 
